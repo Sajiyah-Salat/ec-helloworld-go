@@ -9,6 +9,7 @@ If `TARGET` is not specified, `World` is used as the default value.
 
 You will need:
 
+
 - A Kubernetes cluster with Knative installed and DNS configured.  See
   [Install Knative Serving](https://knative.dev/docs/install/serving/install-serving-with-yaml).
 - [Docker](https://www.docker.com) installed and running on your local machine, and a Docker Hub account configured.
