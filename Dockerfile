@@ -8,7 +8,6 @@ ARG TARGETARCH
 # Create and change to the app directory.
 WORKDIR /app
 
-
 # Retrieve application dependencies using go modules.
 # Allows container builds to reuse downloaded dependencies.
 COPY go.* ./
